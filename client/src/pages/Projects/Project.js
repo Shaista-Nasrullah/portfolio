@@ -67,7 +67,7 @@ const Project = () => {
           <div className="col-md-4">
             <div className="card rounded">
               <div className="card-image">
-                <span className="card-notify-badge">Front End</span>
+                <span className="card-notify-badge">Front End Project</span>
                 <img src="./images/project3.png" alt="project1" />
               </div>
               <div className="card-image-overly m-auto mt-3">
