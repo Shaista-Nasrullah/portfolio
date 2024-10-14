@@ -6,7 +6,6 @@ import Project from "./pages/Projects/Project";
 import Techstack from "./pages/Techstack/Techstack";
 import ScrollToTop from "react-scroll-to-top";
 import { useTheme } from "./context/ThemeContext";
-import Tada from "react-reveal/Tada";
 import MobileNav from "./components/MobileNav/MobileNav";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -26,11 +25,10 @@ function App() {
           <Project />
           <Contact />
         </div>
-        <Tada>
-          <div className="footer pb-3 ms-3">
-            <h4 className="text-center">Made with 😍 Techno &copy; 2024</h4>
-          </div>
-        </Tada>
+
+        <div className="footer pb-3 ms-3">
+          <h4 className="text-center">Made with 😍 Techno &copy; 2024</h4>
+        </div>
       </div>
       <ScrollToTop
         smooth

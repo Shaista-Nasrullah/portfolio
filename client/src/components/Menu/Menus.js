@@ -4,26 +4,21 @@ import { Link } from "react-scroll";
 import {
   FcAbout,
   FcHome,
-  FcPortraitMode,
   FcBiotech,
   FcReadingEbook,
   FcVideoProjector,
   FcBusinessContact,
 } from "react-icons/fc";
-import Zoom from "react-reveal/Zoom";
-import Fade from "react-reveal/Fade";
 
 const Menus = ({ toggle }) => {
   return (
     <>
       {toggle ? (
         <>
-          <Zoom>
-            <div className="navbar-profile-pic ">
-              <img src="/images/cropped.jpeg" alt="Profile pic" />
-            </div>
-          </Zoom>
-          <Fade left>
+          <div className="navbar-profile-pic ">
+            <img src="/images/cropped.jpeg" alt="Profile pic" />
+          </div>
+
           <div className="nav-items">
             <div className="nav-item">
               <div className="nav-link">
@@ -103,7 +98,6 @@ const Menus = ({ toggle }) => {
               </div>
             </div>
           </div>
-          </Fade>
         </>
       ) : (
         <>
