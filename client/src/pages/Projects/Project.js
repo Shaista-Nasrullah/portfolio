@@ -22,7 +22,7 @@ const Project = () => {
             <div className="card rounded">
               <div className="card-image">
                 <span className="card-notify-badge">Full Stack</span>
-                <img src="./images/Haji-jewellers.png" alt="project1" />
+                <img src="./images/hj.PNG" alt="project1" />
               </div>
               <div className="card-image-overly m-auto mt-3">
                 <span className="card-detail-badge">Mongodb</span>
@@ -57,7 +57,7 @@ const Project = () => {
                 <div className="ad-title m-auto">
                   <h5 className="text-uppercase">Assignment Management</h5>
                 </div>
-                <a className="ad-btn" href="#">
+                <a className="ad-btn" href="https://new-hajijewellers.shop/">
                   View
                 </a>
               </div>
